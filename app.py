@@ -14,7 +14,7 @@ import tempfile
 
 DEMO_IMAGE = 'itony.jpg'
 
-classifier = load_model('weights_emotions.hdf5')
+classifier = load_model('model_emo.h5')
 face_classifier = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 class_labels=['anger','disgust', 'sad','happiness', 'surprise']
 
