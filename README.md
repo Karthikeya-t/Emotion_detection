@@ -9,5 +9,7 @@ This model is able to detect 0:'anger', 1:'disgust', 2:'sad', 3:'happiness', 4: 
 I used CNN resnet model to predict class of the image ,haarcascade_frontalface_default.xml for drawing boundary box for face.
 
 #Model 
+resnet 
+
 ![](https://github.com/Karthikeya-t/Emotion_detection/blob/main/model_structure.png)
 
